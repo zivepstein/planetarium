@@ -1,22 +1,22 @@
 %editable parameters
-unique_frames = 2332;
-duplication = 3;
-scale = 1;
-zenith_rate = 0.75;
+unique_frames = 2332; %number of photos
+duplication = 3; %number of frames per photo
+scale = 1; %how big is each photo 
+zenith_rate = 0.75; %how much smaller photos appear on the zenith 
 
-%fixed parameters
+%fixed parameters 
 confscale = 1.5;
 canvas = imread('black_canvas.jpg');
 canvas_size = size(canvas);
 r = canvas_size(1)/2;
-angles = csvread('angles_2017-05-01.csv');
+angles = csvread('angles.csv');
 yaws = angles(:,2);
 pitches = angles(:,1);
 
 index = 0;
 for i = 1:unique_frames
     local_canvas = canvas;
-    file_name = strcat('images-f/image',sprintf('%03d',i+4),'.jpg');
+    file_name = strcat('images/image',sprintf('%03d',i+4),'.jpg');
     I = imread(file_name);
 %     imshow(I);
     yaw = yaws(i);
@@ -42,7 +42,7 @@ for i = 1:unique_frames
     crop_canvas = rot_canvas(pad:pad+2*r-1, pad:pad+2*r-1,:);
     for j = 1:duplication
         index = index + 1;
-        out_name = strcat('lizard-scenFscal1d3/lizard_',sprintf('%04d',index),'.jpg');
+        out_name = strcat('out/frame',sprintf('%04d',index),'.jpg');
         imwrite(crop_canvas, out_name); %(1:4096,1:4096,:)
     end
     %imshow(local_canvas);
