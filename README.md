@@ -13,3 +13,6 @@ Sometimes, the dome movie needs to be converted to a directory of images to fed 
 In particular, if you have n images, with corresponding n pitches and n yaws (pitch here ranges from 0 to 90, 0=looking straight ahead, 90=looking up at zenith, and yaw here ranges from 0 to 360, counterclockwise rotation), the script will stich them together as you would think.
 
 <b>Skymaps</b>: Skymaps are a media asset in the dome that can be rendered as a "skin" for the dome. They take as input a jpeg image to map to a sphere (think a rectangular world map that stands in for a spherical globe). An example skymap with the correct dimensions is in the folder.
+
+<h2>Thesis</h2>
+Many of the lessons and techniques I learned are discussed in detail in my media studies thesis. The PDF for it is in this repo as well.
