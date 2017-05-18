@@ -22,7 +22,7 @@ The planetarium only seats 32, and given the enormous interest on the 5C's, it c
 <li> Create a google form where you ask people for names, email and which show they are RSVPing for (like this one: https://goo.gl/forms/m2Mi1ta8bJ515K8z2) </li>
 <li> Create a facebook event using the Pomona Planetarium facebook page (https://www.facebook.com/pomonaplanetarium/, if you're not an admin ask Adam or Elvis for privelages or to post it for you), where you request people to follow to google form link to RSVP</li>
 <li>Track responses on GF to ensure you don't overflow. </li>
-
+</ol>
 
 <h2>Thesis</h2>
 Many of the lessons and techniques I learned are discussed in detail in my media studies thesis. The PDF for it is in this repo as well.
