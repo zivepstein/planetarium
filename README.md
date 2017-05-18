@@ -9,7 +9,7 @@ to convert this directory of images to a movie. `how-to-slice.pdf` is a set of i
 Sometimes, the dome movie needs to be converted to a directory of images to fed to the slicer. If it is already a movie, you can use the `extract_frames_from_vid.py` script to do so.
 
 <h2> Mapping images to the dome </h2>
-<b>Matlab Script</b>: Given a directory of rectangular images and a csv file of pitches and yaws, the `images_to_dome.m`script converts the images to a circular image directory to be sliced.
+<b>Matlab Script</b>: Given a directory of rectangular images and a csv file of pitches and yaws, the `images_to_dome.m` script converts the images to a circular image directory to be sliced.
 In particular, if you have n images, with corresponding n pitches and n yaws (pitch here ranges from 0 to 90, 0=looking straight ahead, 90=looking up at zenith, and yaw here ranges from 0 to 360, counterclockwise rotation), the script will stich them together as you would think.
 
 <b>Skymaps</b>: Skymaps are a media asset in the dome that can be rendered as a "skin" for the dome. They take as input a jpeg image to map to a sphere (think a rectangular world map that stands in for a spherical globe). An example skymap with the correct dimensions is in the folder.
