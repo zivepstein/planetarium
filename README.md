@@ -24,6 +24,9 @@ The planetarium only seats 32, and given the enormous interest on the 5C's, it c
 <li>Track responses on GF to ensure you don't overflow. </li>
 </ol>
 
+<h2>Matertials</h2>
+In the materials folder, find all official colors and images for the pomona planetarium.
+
 <h2>Thesis</h2>
 Many of the lessons and techniques I learned are discussed in detail in my media studies thesis. The PDF for it is in this repo as well.
 
