@@ -1,4 +1,5 @@
 # planetarium
+![alt text](https://github.com/zivepstein/planetarium/blob/master/materials/PomonaPlanetariumProfile.jpg "Planetaroim Cover")
 This repo serves as a Wiki for work done in the Pomona Planetarium. Here you will find files and tutorials for how to do various things with the planetarium.
 
 <h2> Slicing </h2>
